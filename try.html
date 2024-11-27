@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive page</title>
+    <style>
+       body{
+            color:#dde2e7;
+            font-size: larger;
+            font-weight: bolder;
+            padding: 0 10px;
+            margin: 10px;
+            background-color: #f0f8ff;
+            align-items: center;
+            justify-content: center;
+        }
+        .header{
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            height: 45px;
+            width: 95%;
+            background-color: #0000ff;
+        }
+        .pages{
+            padding: 5px 0;
+            justify-content: center;
+            align-items: center;
+        }
+        .page_1{
+            padding: 4px;
+            margin: 10px;
+            text-align: center;
+            height: 90px;
+            width: 95%;
+            background-color: #6c6c95;
+        }
+        .page_2{
+            padding: 4px;
+            margin: 10px;
+            text-align: center;
+            height: 90px;
+            width: 95%;
+            background-color: #6c6c95;
+        }
+        .page_3{
+            padding: 4px;
+            margin: 10px;
+            text-align: center;
+            height: 90px;
+            width: 95%;
+            background-color: #6c6c95;
+        }
+        .footer{
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            height: 45px;
+            width: 95%;
+            background-color: #0000ff;
+        }
+        @media screen and (max-width:768px) {
+            .pages{
+                display: flex;
+                margin:0 20px;
+            }
+            .page_1{
+                background-color: rgb(79, 14, 88);
+                height: 300px;
+            }
+            .page_2{
+                background-color: rgb(79, 14, 88);
+                height: 300px;
+            }
+            .page_3{
+                background-color: rgb(79, 14, 88);
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="header">
+           HEADER
+        </div>
+       <div class="pages">
+            <div class="page_1">
+               PAGE 1
+            </div>
+            <div class="page_2">
+                PAGE 2
+            </div>
+            <div class="page_3">
+                PAGE 3
+            </div>
+        </div>
+        <div class="footer">
+            FOOTER
+        </div>
+    </div>
+</body>
+</html>
